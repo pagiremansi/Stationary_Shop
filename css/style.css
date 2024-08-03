@@ -1,3 +1,49 @@
 .banner{
     background-color: #f7e6ff;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: azure;
+    border: 1px solid black;
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+}
+
+.nav-icon{
+    height: 40px;
+    margin: 8px;
+}
+
+.category-banner{
+    background-color: bisque;
+    min-height: 500px;
+    width: 1500px;
+    margin: 0 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.category-card{
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.category-img{
+    height: 180px;
+    width: 300px;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+}
+
+.category-img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 10px 10px 15px 5px grey;
 }
